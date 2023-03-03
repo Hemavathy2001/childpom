@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
+<servers>
+<server>
+     <id>github1</id>
+     <username>Hemavathy2001</username>
+     <password>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</password> 
+</server>
+<server>
+     <id>github</id>
+     <username>${server.username}</username>
+     <password>${server.password}</password> 
+</server>
+</servers>
+<profiles>
+ <profile>
+      <id>github</id>
+      <repositories>
+        <repository>
+          <id>central</id>
+          <url>https://repo1.maven.org/maven2</url>
+  <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
+       </repository>
+        <repository>
+          <id>github</id>
+          <url>https://maven.pkg.github.com/Hemavathy2001/parentpom</url>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+</profiles>
+</settings>
