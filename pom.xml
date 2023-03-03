@@ -19,6 +19,16 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <version>1.0</version>
 </dependency>
   </dependencies>
+  <repositories>
+		<repository>
+			<id>github</id>
+			<name>Dev Github Repo</name>
+			<url>https://maven.pkg.github.com/Hemavathy2001/parentpom</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+	</repositories>
   
 <!--   <parent>
    <groupId>com.javatpoint.application1</groupId>  
