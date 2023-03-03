@@ -2,9 +2,9 @@
 <settings xmlns="http://maven.apache.org/SETTINGS/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
 <servers>
 <server>
-     <id>github1</id>
-     <username>Hemavathy2001</username>
-     <password>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</password> 
+     <id>github</id>
+     <username>${env.GITHUB_USERNAME}</username>
+     <password>${env.GITHUB_PASSWORD}</password> 
 </server>
 <server>
      <id>github</id>
