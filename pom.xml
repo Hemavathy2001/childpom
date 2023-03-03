@@ -12,12 +12,19 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   
   <name>Maven Quick Start Archetype</name>  
   <url>http://maven.apache.org</url>  
+  <dependencies>
+  <dependency>
+  <groupId>com.javatpoint.application1</groupId>
+  <artifactId>my-application1</artifactId>
+  <version>1.0</version>
+</dependency>
+  </dependencies>
   
-  <parent>
+<!--   <parent>
    <groupId>com.javatpoint.application1</groupId>  
   <artifactId>my-application1</artifactId>  
   <version>1.0</version>  
-  </parent>
+  </parent> -->
   
 </project>  
 
